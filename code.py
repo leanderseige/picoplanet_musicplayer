@@ -19,6 +19,8 @@ ledR.direction = Direction.OUTPUT
 ledB = DigitalInOut(board.D7)
 ledB.direction = Direction.OUTPUT
 
+time.sleep(1)  # Sleep for a bit to avoid a race condition on some systems
+
 # turn red = calibration
 
 ledR.value = True
