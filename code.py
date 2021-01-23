@@ -3,7 +3,7 @@ import board
 import time
 import touchio
 from digitalio import DigitalInOut, Direction, Pull
-from song import song
+from planetsong import song
 from notes import notes
 
 # init buttons
