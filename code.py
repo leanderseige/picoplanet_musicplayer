@@ -31,6 +31,8 @@ pwmspk1 = pulseio.PWMOut(board.D1, duty_cycle=0x7fff, frequency=440, variable_fr
 pwmspk2 = pulseio.PWMOut(board.D2, duty_cycle=0x7fff, frequency=440, variable_frequency=True)
 pwmspk3 = pulseio.PWMOut(board.D3, duty_cycle=0x7fff, frequency=440, variable_frequency=True)
 
+playing = 1
+
 # use button values to set freqency, no sound if near low level
 
 while True:
